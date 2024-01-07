@@ -42,5 +42,3 @@ To use the project, follow these steps:
     ```bash
     npm start
     ```
-
-2. Open your web browser and navigate to `http://localhost:4000`.
