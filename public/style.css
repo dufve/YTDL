@@ -1,0 +1,78 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#downloadForm input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+#downloadForm button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+#downloadForm button:hover {
+    background-color: #45a049;
+}
+.video-metadata {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.video-metadata img {
+    max-width: 100%;
+    height: auto;
+}
+.format-options {
+    margin-bottom: 20px;
+}
+.format-options button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #eee;
+    color: #333;
+    cursor: pointer;
+    text-align: left;
+}
+.format-options button:hover {
+    background-color: #ddd;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #666;
+}
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+.separator span {
+    padding: 0 10px;
+}
